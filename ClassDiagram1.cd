@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WindowsApplication3.cleared" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAABAAAAACAACgCAAAAUAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cleared.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.gameover" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAASAACgCAAAAUAAAAAAAAAAAAAA=</HashCode>
+      <FileName>gameover.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.high_score" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAIAAAACAAAgCAMAgQAAAACQAAAAAADA=</HashCode>
+      <FileName>high score.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.info" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEECAAABAAAAGAAAACAAEAAQAAAAAEAgAAAAA=</HashCode>
+      <FileName>info.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.kambing" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAEAAACAAUAgAEACAoAACAAAIAAQAAMAAAAACAAA=</HashCode>
+      <FileName>kambing.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.menu" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAACAADgCAAAAcAAAAAAAAAAAAAA=</HashCode>
+      <FileName>menu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.score" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAogAAgAAAAAAAABAAAAAAAAIA=</HashCode>
+      <FileName>score.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.Start" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAADgCAAAAYAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Start.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.Stok" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAABAAAKAAAAAAAAAAAAAgAAAAkAAAABAAAA=</HashCode>
+      <FileName>Stok.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.tampilan" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAACAgYAAAAACAwDgCgAAAcI4AAAAAAAAEABA=</HashCode>
+      <FileName>tampilan.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.My.MyApplication" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication3.My.MySettings" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABAAIAAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="WindowsApplication3.My.MySettingsProperty" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WindowsApplication3.My.Resources.Resources" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEBAAAAAAgAAAAJUAAQEQAECAAAAAAAAMAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A9E44A6-CBBE-4EF0-A6ED-3C9DEA04E200}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GoatRaising.My.MyApplication</StartupObject>
+    <RootNamespace>GoatRaising</RootNamespace>
+    <AssemblyName>Goat Raising</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Goat Raising.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Goat Raising.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="credits.Designer.vb">
+      <DependentUpon>credits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="credits.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.vb">
+      <DependentUpon>Start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="high score.Designer.vb">
+      <DependentUpon>high score.vb</DependentUpon>
+    </Compile>
+    <Compile Include="high score.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="score.vb" />
+    <Compile Include="Stok.vb" />
+    <Compile Include="tampilan.Designer.vb">
+      <DependentUpon>tampilan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tampilan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.vb">
+      <DependentUpon>menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cleared.Designer.vb">
+      <DependentUpon>cleared.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cleared.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="info.Designer.vb">
+      <DependentUpon>info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="info.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="kambing.Designer.vb">
+      <DependentUpon>kambing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kambing.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="gameover.Designer.vb">
+      <DependentUpon>gameover.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gameover.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="credits.resx">
+      <DependentUpon>credits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="high score.resx">
+      <DependentUpon>high score.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tampilan.resx">
+      <DependentUpon>tampilan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cleared.resx">
+      <DependentUpon>cleared.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info.resx">
+      <DependentUpon>info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kambing.resx">
+      <DependentUpon>kambing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gameover.resx">
+      <DependentUpon>gameover.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass_strands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\melati.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pudle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syringe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Goat - Cartoon 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Goat - Cartoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\melati1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
